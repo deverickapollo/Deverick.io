@@ -2,7 +2,7 @@
 
 ## Built With
 
-* [Jeckyll](https://jekyllrb.com/) - The static site generator used
+* [Jekyll](https://jekyllrb.com/) - The static site generator used
 
 ## Contributing
 
