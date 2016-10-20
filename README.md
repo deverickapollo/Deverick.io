@@ -1,30 +1,22 @@
 # Deverick.io Site
 
+* A Live Site to highlight my projects, provide contact information and blog recent happenings
+
 ## Built With
 
 * [Jeckyll](https://jekyllrb.com/) - The static site generator used
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
 * **Deverick Simpson** - *Initial work* - [Deverick](https://github.com/Deverick-Simpson)
 
-See also the list of [contributors](https://github.com/Deverick-Simpson/contributors) who participated in this project.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Josh Duff
+* [Josh Duff](https://github.com/TehShrike)
 * Call of Duty
 * Myself
 
