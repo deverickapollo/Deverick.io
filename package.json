@@ -1,0 +1,22 @@
+{
+  "name": "deverick.io",
+  "version": "1.0.0",
+  "description": "A Jekyll rendered home page covering the details of my recent projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deverick-Simpson/Deverick.io.git"
+  },
+  "keywords": [
+    "Deverick"
+  ],
+  "author": "Deverick Simpson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deverick-Simpson/Deverick.io/issues"
+  },
+  "homepage": "https://github.com/Deverick-Simpson/Deverick.io#readme"
+}
