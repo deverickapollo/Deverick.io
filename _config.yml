@@ -22,6 +22,14 @@ url: "http://localhost:4000" # the base hostname & protocol for your site
 #twitter_username: 
 github_username:  Deverick-Simpson
 
-# Build settings
-markdown: kramdown
-theme: minima
+#markdown: kramdown
+#theme: minima
+# Build Settings
+sass:
+    sass_dir: _sass
+include: ['_pages']
+kramdown:
+    input: GFM
+gems:
+    #    -jekyll-assets
+    #-jekyll-coffeescript
