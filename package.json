@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Deverick-Simpson/Deverick.io/issues"
   },
-  "homepage": "https://github.com/Deverick-Simpson/Deverick.io#readme"
+  "homepage": "https://github.com/Deverick-Simpson/Deverick.io#readme",
+  "dependencies": {
+    "jquery.terminal": "^0.11.13"
+  }
 }

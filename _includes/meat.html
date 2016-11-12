@@ -1,19 +1,86 @@
 <!--parallax 1 -->
 <section class="bg-1 text-center">
-      <h1>Deverick Apollo Simpson</h1>
+    <h1>Deverick Apollo Simpson</h1>
         <p class="lead">I write sexy code and will one day become a LEGO master builder</p>
+        <!-- Contextual button for informational alert messages -->
+        <a href="#resume" role="button" class="btn btn-danger" >Hire Me</a>
+
+        <!-- Indicates caution should be taken with this action -->
+        <a href="mailto:deverick@me.com" role="button" class="btn btn-warning" >Freelance Project</a>
+        
 </section>
 <!--/parallax 1-->
 
 <section>
-    <div class="container-fluid" >
+    <div id="portfolio" class="container-fluid" >
         <div class="row" >
             <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <h1>Portfolio</h1>
+                <h1>Some of My Latest Projects</h1>
+                <hr  width="40%" class="style17">
+                <p class="subtitle">Take a look</p>  
+            </div>       
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-xs-6 text-center">
+                <div class = "thumbnail">
+                    <img src="photos/projects/size/O5VSGC2-size.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+                </div>
+                <div class = "caption">
+                    <h3>MSA Family Reunion</h3>
+                        <p>Built with the Bootstrap framework and javascript, the site offered a simple solution to manage event financing and daily agenda of a biannual family reunion. 
+                    <p>
+                        <a href="http://www.msafamilyreunion.com" class = "btn btn-primary" role = "button">MSA Home Page</a>
+                    </p>
+         
+                </div>
             </div>
+            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-xs-6 text-center">
+                <div class = "thumbnail">
+                    <img src="photos/projects/size/O9VY8I1-size.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+                </div>
+                <div class = "caption">
+                    <h3>Berks Barber Shop</h3>
+                    <p>Cory Berks voiced a need for a website to market his barber shop in Lincoln, NE.  It didnt have much purpose outside of marketing but soon after initial design, it became clear there was a need for an appointment system to manage client scheduling.  The site has been a great success for the shop, creating a more effecient client checkout flow.</p> 
+                    <p>
+                        <a href="http://www.berksbarbershop.com" class = "btn btn-primary" role = "button">Berks Home Page</a>
+                    </p>
+         
+                </div>
+            </div>    
         </div>
     </div>  
+
 </section>
+
+<section>
+    <div id="resume" class="container-fluid" >
+        <div class="row" >
+            <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <h1>Resume</h1>
+                <div id="term_demo"></div>
+            </div>       
+        </div>
+    </div>
+</section>
+<section>
+    <div id="contact" class="container-fluid" >
+        <div class="row" >
+            <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <h1>Contact</h1>
+                <hr  width="40%" class="style17">
+                <p class="subtitle">Take a look</p> 
+            </div>       
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <h4>Bitcoin Address: 15FiMFoMFy94ZPQ7nQQ6V7j4RUYVZPtDr7</h4>
+                <h4>PGP:</h4>
+                <h4>Email: deverick@me.com</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
 <script>
 (function($) {
 
@@ -63,9 +130,39 @@ $('.bg-2').parallax({
 });
 
 </script>
+<!-- Bootstrap -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- Bootflat's JS files.-->
+<script src="node_modules/bootflat/bootflat/js/icheck.min.js"></script>
+<script src="node_modules/bootflat/bootflat/js/jquery.fs.selecter.min.js"></script>
+<script src="node_modules/bootflat/bootflat/js/jquery.fs.stepper.min.js"></script>
 
 <script>
-    $(".navbar-fixed-top").autoHidingNavbar({
-        // see next for specifications
+  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+  ':4000/node_modules/bootflat/dist/js/livereload.js?snipver=1"></' + 'script>')
+</script> 
+
+<script>
+jQuery(function($, undefined) {
+    $('#term_demo').terminal(function(command, term) {
+        if (command !== '') {
+            try {
+                var result = window.eval(command);
+                if (result !== undefined) {
+                    term.echo(new String(result));
+                }
+            } catch(e) {
+                term.error(new String(e));
+            }
+        } else {
+           term.echo('');
+        }
+    }, {
+        greetings: 'Deverick Simpson Resume',
+        name: 'resume',
+        height: 600,
+        prompt: 'js> '
     });
+});
 </script>
