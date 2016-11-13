@@ -24,6 +24,7 @@ plugins_dir:  ./_plugins
 layouts_dir:  ./_layouts
 data_dir:     ./_data
 includes_dir: ./_includes
+include: ["node_modules"]
 url: "https://github.com/Deverick-Simpson/Deverick.io" # the base hostname & protocol for your site
 #twitter_username: 
 github_username:  Deverick-Simpson
