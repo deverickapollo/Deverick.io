@@ -4,15 +4,14 @@
         <p class="lead">I write sexy code and will one day become a LEGO master builder</p>
         <!-- Contextual button for informational alert messages -->
         <a href="#resume" role="button" class="btn btn-danger" >Hire Me</a>
-
         <!-- Indicates caution should be taken with this action -->
-        <a href="mailto:deverick@me.com" role="button" class="btn btn-warning" >Freelance Project</a>
+        <a href="mailto:deverick@me.com" role="button" class="btn btn-warning" >Start a Project</a>
         
 </section>
 <!--/parallax 1-->
 
-<section>
-    <div id="portfolio" class="container-fluid" >
+<section id="portfolio">
+    <div  class="container-fluid" >
         <div class="row" >
             <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 col-xs-12 text-center">
                 <h1>Some of My Latest Projects</h1>
@@ -55,13 +54,23 @@
 <section>
     <div id="resume" class="container-fluid" >
         <div class="row" >
-            <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                <h1>Resume</h1>
-                <div id="term_demo"></div>
+            <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 col-xs-12 ">
+                <h1 class="text-center">Resume</h1>
+                <div class="shell-wrap">
+                    <p class="shell-top-bar">/Users/Deverick-Simpson/Documents/Resume/</p>
+                    <ul class="shell-body">
+                        <li>cd /Users/Deverick-Simpson/Documents/Resume/</li>
+                        <li>less Deverick.txt</li>
+                        <li>Software Engineer</li>
+                        <li>BSCS graduate providing a strong foundation in Computer Science and programming concepts, looking to gain further experience on a team implementing web applications in an agile SDLC.</li>
+                        <li>Experienced team player, fluent in German, and skilled in object-oriented design with a focus on application security.</li>
+                    </ul>
+                </div>
             </div>       
         </div>
     </div>
 </section>
+
 <section>
     <div id="contact" class="container-fluid" >
         <div class="row" >
@@ -83,25 +92,18 @@
 
 <script>
 (function($) {
-
     $.fn.parallax = function(options) {
-
         var windowHeight = $(window).height();
-
         // Establish default settings
         var settings = $.extend({
             speed        : 0.15
         }, options);
-
         // Iterate over each object in collection
         return this.each( function() {
-
             // Save a reference to the element
             var $this = $(this);
-
             // Set up Scroll Handler
             $(document).scroll(function(){
-
                 var scrollTop = $(window).scrollTop();
                 var offset = $this.offset().top;
                 var height = $this.outerHeight();
@@ -110,12 +112,9 @@
                 if (offset + height <= scrollTop || offset >= scrollTop + windowHeight) {
                     return;
                 }
-
                 var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
-
                 // Apply the Y Background Position to Set the Parallax Effect
                 $this.css('background-position', 'center ' + yBgPosition + 'px');
-
             });
         });
     }
@@ -138,27 +137,6 @@ $('.bg-2').parallax({
 <script src="node_modules/bootflat/bootflat/js/jquery.fs.selecter.min.js"></script>
 <script src="node_modules/bootflat/bootflat/js/jquery.fs.stepper.min.js"></script>
 
-
-<script>
-jQuery(function($, undefined) {
-    $('#term_demo').terminal(function(command, term) {
-        if (command !== '') {
-            try {
-                var result = window.eval(command);
-                if (result !== undefined) {
-                    term.echo(new String(result));
-                }
-            } catch(e) {
-                term.error(new String(e));
-            }
-        } else {
-           term.echo('');
-        }
-    }, {
-        greetings: 'Deverick Simpson Resume',
-        name: 'resume',
-        height: 600,
-        prompt: 'js> '
-    });
-});
-</script>
+<!--jQuery-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="{{ site.baseurl}}/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>    
