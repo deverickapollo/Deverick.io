@@ -17,8 +17,8 @@ title: Deverick.io
 email: deverick@me.com
 description: > # this means to ignore newlines until "baseurl:"
   The presence of Deverick, within the Internet.
-url: "https://github.com/Deverick-Simpson" # the base hostname & protocol for your site
-baseurl: /Deverick.io # the subpath of your site, e.g. /blog
+url: "https://deverick.io" # the base hostname & protocol for your site
+baseurl: / # the subpath of your site, e.g. /blog
 source: .
 destination:  ./_site
 plugins_dir:  ./_plugins
