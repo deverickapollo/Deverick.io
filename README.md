@@ -1,12 +1,6 @@
 # Deverick.io Site
 
-* A Live Site to highlight my projects, provide contact information and blog recent happenings
-
-## Built With
-
-* [Jekyll](https://jekyllrb.com/) - The static site generator used
-
-## Authors
+## Author
 
 * **Deverick Simpson** - *Initial work* - [Deverick](https://github.com/Deverick-Simpson)
 
