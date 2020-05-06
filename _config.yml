@@ -101,7 +101,7 @@ rss: true
 share-links-active:
     twitter: true
 
-url-pretty: "Deverick.io"
+url-pretty: "https://deverick.io/"
 
 # Build settings
 theme: minima

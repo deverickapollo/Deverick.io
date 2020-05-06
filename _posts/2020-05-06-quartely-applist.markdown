@@ -11,7 +11,7 @@ The Loki Foundation has published  a new end-to-end encrypted messenger this pas
 
 **Session leverages three different technologies:**
 
-1. For sender anonymity, **tor** onion protocol is used to route messages securely.
+1. For sender anonymity, **tor onion protocol** is used to route messages securely.
 
 2. To handle asymmetric communication between parties, the session app uses the open source **OTR messaging protocol** libraries provided by Signal. 
 
