@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-06T10:03:47+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Deverick.io</title><subtitle>The measure of a person of a hero is how well they succeed at being who they are.</subtitle><author><name>Deverick Simpson</name></author><entry><title type="html">App of the Month</title><link href="http://localhost:4000/apps/2020/05/04/quartely-applist.html" rel="alternate" type="text/html" title="App of the Month" /><published>2020-05-04T19:38:27+02:00</published><updated>2020-05-04T19:38:27+02:00</updated><id>http://localhost:4000/apps/2020/05/04/quartely-applist</id><content type="html" xml:base="http://localhost:4000/apps/2020/05/04/quartely-applist.html">&lt;p&gt;&lt;img src=&quot;/assets/Session/SESSION_Vert.png&quot; alt=&quot;Session App&quot; title=&quot;Session App&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Loki Foundation has published  a new end-to-end encrypted messenger this past month. The session app is a privacy-focused messenger with a simple mission, to provide anonymous communication.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Session leverages three different technologies:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;For sender anonymity, &lt;strong&gt;tor&lt;/strong&gt; onion protocol is used to route messages securely.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;To handle asymmetric communication between parties, the session app uses the open source &lt;strong&gt;OTR messaging protocol&lt;/strong&gt; libraries provided by Signal.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lastly, messages are stored on the &lt;strong&gt;Loki Network.&lt;/strong&gt; This provides a distinct difference from its immediate competitor, Signal.  Although these messages are encrypted/decrypted using state of the art technologgy, the Signal App relies on central servers to store messages.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;What is Perfect Forward Secrecy and why is it important?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;C.G. Günther coined the term “perfect forward secrecy” in 1990.  It is used to describe a property of encryption systems in which the exposure of the long term shared secret does not compromise the confidentiality of a group of messages.  To accomplish this, the encryption system generates session keys between the client and server for each message transmitted.  In the event private keys have been compromised, access to the system does not compromise the confidentiality of messages previously sent.&lt;/p&gt;
+
+&lt;p&gt;For further information, please visit the main website at &lt;a href=&quot;https://getsession.org/&quot;&gt;https://getsession.org/&lt;/a&gt;&lt;/p&gt;</content><author><name>Deverick Simpson</name></author><summary type="html"></summary></entry></feed>
