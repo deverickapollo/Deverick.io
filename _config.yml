@@ -91,7 +91,7 @@ description: The measure of a person of a hero is how well they succeed at being
 url: "https://www.deverick.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hashes4merkle
 github_username:  hashes4merkle
-rss: true
+rss: RSS
 
 share-links-active:
     twitter: true
