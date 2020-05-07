@@ -2,7 +2,7 @@
 
 ## Author
 
-* **Deverick Simpson** - *Initial work* - [Deverick](https://github.com/Deverick-Simpson)
+* **Deverick Simpson** - *Initial work* - [Deverick](https://github.com/hashes4merkle)
 
 ## License
 
