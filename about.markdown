@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+![Deverick](/assets/images/self.jpg "Deverick")
 
 Welcome to my personal space where I share some of my experiences in the digital world.  You can view source code for my tools and projects on [Github.com](https://github.com/hashes4merkle).
 
