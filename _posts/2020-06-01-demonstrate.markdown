@@ -5,7 +5,9 @@ date:   2020-05-04 19:38:27 +0200
 categories: apps
 ---
 
-**I thought it would be good to release a short post of useful materials to protect our citizens in these trying times.**
+**I thought it would be good to release a summary of useful materials to protect our citizens in protest.**
+
+0. [Anonymous  Mass Protest Survival Guide Video](https://www.youtube.com/watch?v=hOit6CzX6M8)
 1. [ACLU PROTEST GUIDELINES](https://www.acludc.org/en/know-your-rights/know-your-rights-demonstrations-and-protests)
 2. [Understand how they work](https://www.policeone.com/police-products/emergency-preparedness/articles/12-things-every-police-departments-civil-unrest-plan-needs-Nny9wOSfXLUlYBps/)
 3. [How they think](https://thecrimereport.org/2020/03/09/854885/)
@@ -52,6 +54,7 @@ categories: apps
 3. Setup Groups to service broadcast messages. 
 
 **Protest Survival Pack**
+
 - Wear Durable clothing only. Lightweight. Entire body covering. No fuzzy garments
 - Wear protective material to avoid damaging your clothing
 	- Heavy duty glove to pick up tear gas cannisters
@@ -70,7 +73,6 @@ categories: apps
 - Pepper Spray Wash  
 	- 3 spoons of baking soda 
 	- 1 16oz water in a sprayer.
-
 
 If you have useful information to add, drop me a line on twitter, email or open a pull request on github. I'll get it updated ASAP. Knowledge is power! We are in this together!
 
