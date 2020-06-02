@@ -67,7 +67,10 @@ categories: apps
 	- Comms - Scanners, Radios Cellphones, Topographicals, train maps
 - Umbrella
 - Laser lights
-- Tear Gas 
+- Pepper Spray Wash  
+	- 3 spoons of baking soda 
+	- 1 16oz water in a sprayer.
+
 
 If you have useful information to add, drop me a line on twitter, email or open a pull request on github. I'll get it updated ASAP. Knowledge is power! We are in this together!
 
