@@ -35,6 +35,7 @@ categories: apps
 		- keep crowd moving
 		- Spot when authorities are surronding a protester.  Get target out. Surround this individual and let them disperse into the crowd.
 		- Link arms in chain
+		- Surround the squad to intimidate them. They will reconsider their objective
 		- Keep head and arms moving if you are grabbed
 		- Dont fight
 4. [How they think part 2](https://www.policeforum.org/assets/PoliceResponseMassDemonstrations.pdf)
@@ -46,7 +47,7 @@ categories: apps
 10. [Understanding protesting](https://uwpd.wisc.edu/content/uploads/2018/09/Protest-Response-Guide.pdf)
 11. [Public rights in california](https://www.aclunc.org/sites/default/files/know_your_rights_free_speech.pdf)
 12. [Collection of articles on what to do at protests](https://www.reddit.com/r/ProtestPros/comments/gs0p0m/bring_a_leaf_blower_to_fight_against_tear_gas/) 
-
+13. [Defense lawyer](https://twitter.com/bailproject/status/1266852704602566656?s=20) - In the event that you are arrested, the team at The Bail Project is offering its attorny defense services.
 
 **Communications:**
 1. Use Open Source Secure Communications. I recommend [Signal](https://signal.org/en/). [Telegram](https://telegram.org/) is also popular but is not 100% open source.
