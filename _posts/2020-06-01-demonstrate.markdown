@@ -59,7 +59,7 @@ categories: apps
 - Wear protective material to avoid damaging your clothing
 	- Heavy duty glove to pick up tear gas cannisters
 	- Comfortable boots
-	- Mask, motorcycle helments to protect head
+	- Mask, motorcycle helmets to protect head
 - Respirator mask
 - Dress for the weather 
 - Friends - Travel in a group. You don't want to be an isolated target.
@@ -69,7 +69,7 @@ categories: apps
 	- Energy snacks
 	- Comms - Scanners, Radios Cellphones, Topographicals, train maps
 - Umbrella
-- Laser lights
+- Laser pointers
 - Pepper Spray Wash  
 	- 3 spoons of baking soda 
 	- 1 16oz water in a sprayer.
