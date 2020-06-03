@@ -47,7 +47,7 @@ categories: apps
 10. [Understanding protesting](https://uwpd.wisc.edu/content/uploads/2018/09/Protest-Response-Guide.pdf)
 11. [Public rights in california](https://www.aclunc.org/sites/default/files/know_your_rights_free_speech.pdf)
 12. [Collection of articles on what to do at protests](https://www.reddit.com/r/ProtestPros/comments/gs0p0m/bring_a_leaf_blower_to_fight_against_tear_gas/) 
-13. [Defense lawyer](https://twitter.com/bailproject/status/1266852704602566656?s=20) - In the event that you are arrested, the team at The Bail Project is offering its attorny defense services.
+13. [Defense lawyer](https://twitter.com/bailproject/status/1266852704602566656?s=20) - In the event that you are arrested, the team at The Bail Project is offering its attorney defense services.
 
 **Communications:**
 1. Use Open Source Secure Communications. I recommend [Signal](https://signal.org/en/). [Telegram](https://telegram.org/) is also popular but is not 100% open source.
