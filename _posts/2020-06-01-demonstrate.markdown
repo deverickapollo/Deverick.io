@@ -7,16 +7,17 @@ categories: apps
 
 **I thought it would be good to release a summary of useful materials to protect our citizens in protest.**
 
-0. [Anonymous  Mass Protest Survival Guide Video](https://www.youtube.com/watch?v=hOit6CzX6M8)
-1. [ACLU PROTEST GUIDELINES](https://www.acludc.org/en/know-your-rights/know-your-rights-demonstrations-and-protests)
-2. [Understand how they work](https://www.policeone.com/police-products/emergency-preparedness/articles/12-things-every-police-departments-civil-unrest-plan-needs-Nny9wOSfXLUlYBps/)
-3. [How they think](https://thecrimereport.org/2020/03/09/854885/)
+0. **[Anonymous  Mass Protest Survival Guide Video](https://www.youtube.com/watch?v=hOit6CzX6M8)**
+1. **[ACLU PROTEST GUIDELINES](https://www.acludc.org/en/know-your-rights/know-your-rights-demonstrations-and-protests)**
+2. **[Understand how they work](https://www.policeone.com/police-products/emergency-preparedness/articles/12-things-every-police-departments-civil-unrest-plan-needs-Nny9wOSfXLUlYBps/)**
+3. **[How they think](https://thecrimereport.org/2020/03/09/854885/)**
 	- **Reasons for Riot Forces**
 		1. Intimidation enables forces to break the crowd into manageable proportions
 		2. Promote violence to shut down protest.
 		3. Surround protestors to stop from spreading
 		4. Gather evidence for later prosecution.
 			- [FBI Twitter Post](https://twitter.com/FBI/status/1267573544747257858?s=20)
+			- [DEA given permission to surveil protesters](https://www.buzzfeednews.com/article/jasonleopold/george-floyd-police-brutality-protests-government)
 	- **What will they do?**
 		- Riot forces will look for ways to maintain order and disperse the crowd.
 		- line charges horses vehicles and less lethal
@@ -38,16 +39,17 @@ categories: apps
 		- Surround the squad to intimidate them. They will reconsider their objective
 		- Keep head and arms moving if you are grabbed
 		- Dont fight
-4. [How they think part 2](https://www.policeforum.org/assets/PoliceResponseMassDemonstrations.pdf)
-5. [Basic guidelines](https://americatalks.com/politics/13-steps-to-prepare-for-civil-unrest/)
-6. [Amensty International](https://www.amnestyusa.org/protests/)
-7. [Amensty International part 2](https://www.amnestyusa.org/pdfs/SafeyDuringProtest_F.pdf)
-8. [Protesters rights](https://www.aclu.org/sites/default/files/field_pdf_file/kyr_protests.pdf)
-9. [British Columbia protesters guide](https://d3n8a8pro7vhmx.cloudfront.net/cupebcvotes2014/legacy_url/2028/protesters-guide.pdf?1460991208)
-10. [Understanding protesting](https://uwpd.wisc.edu/content/uploads/2018/09/Protest-Response-Guide.pdf)
-11. [Public rights in california](https://www.aclunc.org/sites/default/files/know_your_rights_free_speech.pdf)
-12. [Collection of articles on what to do at protests](https://www.reddit.com/r/ProtestPros/comments/gs0p0m/bring_a_leaf_blower_to_fight_against_tear_gas/) 
-13. [Defense lawyer](https://twitter.com/bailproject/status/1266852704602566656?s=20) - In the event that you are arrested, the team at The Bail Project is offering its attorney defense services.
+	- [How they think part 2](https://www.policeforum.org/assets/PoliceResponseMassDemonstrations.pdf)
+	- [Lessons from the Occupy Movement, Ferguson, & Beyond: A Guide for Police](../assets/docs/Policing\ Protests.pdf)
+5. **[Basic guidelines](https://americatalks.com/politics/13-steps-to-prepare-for-civil-unrest/)**
+6. **[Amensty International](https://www.amnestyusa.org/protests/)**
+7. **[Amensty International part 2](https://www.amnestyusa.org/pdfs/SafeyDuringProtest_F.pdf)**
+8. **[Protesters rights](https://www.aclu.org/sites/default/files/field_pdf_file/kyr_protests.pdf)**
+9. **[British Columbia protesters guide](https://d3n8a8pro7vhmx.cloudfront.net/cupebcvotes2014/legacy_url/2028/protesters-guide.pdf?1460991208)**
+10. **[Understanding protesting](https://uwpd.wisc.edu/content/uploads/2018/09/Protest-Response-Guide.pdf)**
+11. **[Public rights in california](https://www.aclunc.org/sites/default/files/know_your_rights_free_speech.pdf)**
+12. **[Collection of articles on what to do at protests](https://www.reddit.com/r/ProtestPros/comments/gs0p0m/bring_a_leaf_blower_to_fight_against_tear_gas/)**
+13. **[Defense lawyer](https://twitter.com/bailproject/status/1266852704602566656?s=20)** - In the event that you are arrested, the team at The Bail Project is offering its attorney defense services.
 
 **Communications:**
 1. Use Open Source Secure Communications. I recommend [Signal](https://signal.org/en/). [Telegram](https://telegram.org/) is also popular but is not 100% open source.
