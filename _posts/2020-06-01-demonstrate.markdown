@@ -40,7 +40,7 @@ categories: freedom
 		- Keep head and arms moving if you are grabbed
 		- Dont fight
 	- [How they think part 2](https://www.policeforum.org/assets/PoliceResponseMassDemonstrations.pdf)
-	- [Lessons from the Occupy Movement, Ferguson, & Beyond: A Guide for Police](../../../../assets/docs/Policing\ Protests.pdf)
+	- [Lessons from the Occupy Movement, Ferguson, & Beyond: A Guide for Police]({{ site.url }}assets/docs/Policing\ Protests.pdf)
 5. **[Amensty International](https://www.amnestyusa.org/protests/)**
 6. **[Amensty International part 2](https://www.amnestyusa.org/pdfs/SafeyDuringProtest_F.pdf)**
 7. **[Understanding protesting](https://uwpd.wisc.edu/content/uploads/2018/09/Protest-Response-Guide.pdf)**
