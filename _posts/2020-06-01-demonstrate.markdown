@@ -8,8 +8,9 @@ categories: freedom
 **I thought it would be good to compile useful information to protect our citizens in protest. Additional links and tips welcomed!**
 
 1. **[ACLU PROTEST GUIDELINES](https://www.acludc.org/en/know-your-rights/know-your-rights-demonstrations-and-protests)**
-2. **[Understand how they work](https://www.policeone.com/police-products/emergency-preparedness/articles/12-things-every-police-departments-civil-unrest-plan-needs-Nny9wOSfXLUlYBps/)**
-3. **[How they think](https://thecrimereport.org/2020/03/09/854885/)**
+2. **[Basic guidelines](https://americatalks.com/politics/13-steps-to-prepare-for-civil-unrest/)**
+3. **[Understand how they work](https://www.policeone.com/police-products/emergency-preparedness/articles/12-things-every-police-departments-civil-unrest-plan-needs-Nny9wOSfXLUlYBps/)**
+4. **[How they think](https://thecrimereport.org/2020/03/09/854885/)**
 	- **Reasons for Riot Forces**
 		1. Intimidation enables forces to break the crowd into manageable proportions
 		2. Promote violence to shut down protest.
@@ -39,8 +40,7 @@ categories: freedom
 		- Keep head and arms moving if you are grabbed
 		- Dont fight
 	- [How they think part 2](https://www.policeforum.org/assets/PoliceResponseMassDemonstrations.pdf)
-	- [Lessons from the Occupy Movement, Ferguson, & Beyond: A Guide for Police](../assets/docs/Policing\ Protests.pdf)
-4. **[Basic guidelines](https://americatalks.com/politics/13-steps-to-prepare-for-civil-unrest/)**
+	- [Lessons from the Occupy Movement, Ferguson, & Beyond: A Guide for Police](../../../../assets/docs/Policing\ Protests.pdf)
 5. **[Amensty International](https://www.amnestyusa.org/protests/)**
 6. **[Amensty International part 2](https://www.amnestyusa.org/pdfs/SafeyDuringProtest_F.pdf)**
 7. **[Understanding protesting](https://uwpd.wisc.edu/content/uploads/2018/09/Protest-Response-Guide.pdf)**

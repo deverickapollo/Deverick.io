@@ -55,7 +55,7 @@ detach              : false
 port                : 4000
 host                : 127.0.0.1
 #host               : https://github.com/hashes4merkle
-baseurl             : "" # does not include hostname
+baseurl             : "/Deverick.io" # does not include hostname
 show_dir_listing    : false
 
 quiet               : false
