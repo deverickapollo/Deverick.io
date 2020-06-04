@@ -53,10 +53,6 @@ categories: freedom
 2. **[British Columbia protesters guide](https://d3n8a8pro7vhmx.cloudfront.net/cupebcvotes2014/legacy_url/2028/protesters-guide.pdf?1460991208)**
 3. **[Protesters rights](https://www.aclu.org/sites/default/files/field_pdf_file/kyr_protests.pdf)**
 4. **[Defense lawyer](https://twitter.com/bailproject/status/1266852704602566656?s=20)** - In the event that you are arrested, the team at The Bail Project is offering its attorney defense services.
-5. **Law of War**
-	- The Principle of Military Necessity - Attacks must be intended for military targets of the enemy.
-	- The Principle of Discrimination - Combatants must be distinguishable from noncombatants.
-	- The Fourth Geneva Convention - Protecting Civilians 
 
 **Communications:**
 
