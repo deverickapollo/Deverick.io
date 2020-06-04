@@ -5,9 +5,8 @@ date:   2020-06-01 19:38:27 +0200
 categories: freedom
 ---
 
-**I thought it would be good to compile useful information to protect our citizens in protest.**
+**I thought it would be good to compile useful information to protect our citizens in protest. Additional links and tips welcomed!**
 
-0. **[Anonymous Mass Protest Survival Guide Video](https://www.youtube.com/watch?v=hOit6CzX6M8)**
 1. **[ACLU PROTEST GUIDELINES](https://www.acludc.org/en/know-your-rights/know-your-rights-demonstrations-and-protests)**
 2. **[Understand how they work](https://www.policeone.com/police-products/emergency-preparedness/articles/12-things-every-police-departments-civil-unrest-plan-needs-Nny9wOSfXLUlYBps/)**
 3. **[How they think](https://thecrimereport.org/2020/03/09/854885/)**
@@ -18,7 +17,7 @@ categories: freedom
 		4. Gather evidence for later prosecution.
 			- [FBI Twitter Post](https://twitter.com/FBI/status/1267573544747257858?s=20)
 			- [DEA given permission to surveil protesters](https://www.buzzfeednews.com/article/jasonleopold/george-floyd-police-brutality-protests-government)
-	- **What will they do?**
+	- **What will they do?** [Anonymous Mass Protest Survival Guide Video](https://www.youtube.com/watch?v=hOit6CzX6M8)
 		- Riot forces will look for ways to maintain order and disperse the crowd.
 		- line charges horses vehicles and less lethal
 		- lines will surround you
