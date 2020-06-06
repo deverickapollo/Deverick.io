@@ -61,6 +61,8 @@ categories: freedom
 1. Use Open Source Secure Communications. I recommend [Signal](https://signal.org/en/). [Telegram](https://telegram.org/) is also popular but is not 100% open source.
 2. In the event cellular networks are taken offline, groups can use bluetooth and [Bridgefy](https://medium.com/bridgefy/how-to-use-the-bridgefy-offline-messaging-app-b4799af7649b)
 3. Setup Groups to service broadcast messages. 
+4. Secure your phone before attending a protest - [Verge Article](https://www.theverge.com/21276979/phone-protest-demonstration-activism-digital-how-to-security-privacy)
+5. Hide faces and Scrub metadata before posting online - [Verge Article](https://www.theverge.com/21281897/how-to-hide-faces-scrub-metadata-photograph-video-protest)
 
 **Protest Survival Pack**
 
@@ -69,6 +71,7 @@ categories: freedom
 	- Heavy duty glove to pick up tear gas cannisters
 	- Comfortable boots
 	- Mask, motorcycle helmets to protect head
+- Wear Heavy Duty Goggles as [officers are using rubber bullets](https://twitter.com/CNSDallas/status/1268321956744617985?s=20). Damage can include loss of eyesight.
 - Respirator mask
 - Dress for the weather 
 - Friends - Travel in a group. You don't want to be an isolated target.
