@@ -7,7 +7,10 @@ categories: freedom
 
 **I thought it would be good to compile useful information to protect our citizens in protest. Additional links and tips welcomed!**
 
+
 1. **[ACLU PROTEST GUIDELINES](https://www.acludc.org/en/know-your-rights/know-your-rights-demonstrations-and-protests)**
+	- Find the twitter thread [here](https://twitter.com/ACLU/status/1268588989738618885?s=20)
+	- Watch the video [here](https://twitter.com/i/status/1268314519291518984)
 2. **[Basic guidelines](https://americatalks.com/politics/13-steps-to-prepare-for-civil-unrest/)**
 3. **[Understand how they work](https://www.policeone.com/police-products/emergency-preparedness/articles/12-things-every-police-departments-civil-unrest-plan-needs-Nny9wOSfXLUlYBps/)**
 4. **[How they think](https://thecrimereport.org/2020/03/09/854885/)**
