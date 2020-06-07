@@ -7,7 +7,6 @@ categories: freedom
 
 **I thought it would be good to compile useful information to protect our citizens in protest. Additional links and tips welcomed!**
 
-
 1. **[ACLU PROTEST GUIDELINES](https://www.acludc.org/en/know-your-rights/know-your-rights-demonstrations-and-protests)**
 	- Find the twitter thread [here](https://twitter.com/ACLU/status/1268588989738618885?s=20)
 	- Watch the video [here](https://twitter.com/i/status/1268314519291518984)
@@ -48,6 +47,8 @@ categories: freedom
 6. **[Amensty International part 2](https://www.amnestyusa.org/pdfs/SafeyDuringProtest_F.pdf)**
 7. **[Understanding protesting](https://uwpd.wisc.edu/content/uploads/2018/09/Protest-Response-Guide.pdf)**
 8. **[Collection of articles on what to do at protests](https://www.reddit.com/r/ProtestPros/comments/gs0p0m/bring_a_leaf_blower_to_fight_against_tear_gas/)**
+9. **[Reddit Protest Pros](https://www.reddit.com/r/ProtestPros/)**
+	- Reddit user [BIPIN](https://www.reddit.com/user/BlPlN) shared a guide on on protective gear. Find a copy [here](https://github.com/hashes4merkle/Deverick.io/blob/master/assets/docs/ProtestGuide1.pdf)
 
 **What are your rights**
 
