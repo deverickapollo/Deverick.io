@@ -11,7 +11,7 @@ categories: freedom
 	- Find the twitter thread [here](https://twitter.com/ACLU/status/1268588989738618885?s=20)
 	- Watch the video [here](https://twitter.com/i/status/1268314519291518984)
 2. **[Basic guidelines](https://americatalks.com/politics/13-steps-to-prepare-for-civil-unrest/)**
-2. **Learn from [Hong Kong](https://twitter.com/JoshuaPotash/status/1268773836272656384?s=20)**
+2. **Understand how to organize -- [Hong Kong](https://twitter.com/JoshuaPotash/status/1268773836272656384?s=20)**
 	![Protest Roles](/assets/images/protest_roles.jpeg "Protest Roles")
 
 3. **[Surveillance Self-Defense](https://ssd.eff.org/en/module/attending-protest) from the EFF**
@@ -46,13 +46,13 @@ categories: freedom
 		- Keep head and arms moving if you are grabbed
 		- Dont fight
 	- [How they think part 2](https://www.policeforum.org/assets/PoliceResponseMassDemonstrations.pdf)
-	- [Lessons from the Occupy Movement, Ferguson, & Beyond: A Guide for Police](https://github.com/hashes4merkle/Deverick.io/blob/master/assets/docs/Policing%20Protests.pdf)
+	- [Lessons from the Occupy Movement, Ferguson, & Beyond: A Guide for Police](/assets/docs/Policing%20Protests.pdf)
 5. **[Amensty International](https://www.amnestyusa.org/protests/)**
 6. **[Amensty International part 2](https://www.amnestyusa.org/pdfs/SafeyDuringProtest_F.pdf)**
 7. **[Understanding protesting](https://uwpd.wisc.edu/content/uploads/2018/09/Protest-Response-Guide.pdf)**
 8. **[Collection of articles on what to do at protests](https://www.reddit.com/r/ProtestPros/comments/gs0p0m/bring_a_leaf_blower_to_fight_against_tear_gas/)**
 9. **[Reddit Protest Pros](https://www.reddit.com/r/ProtestPros/)**
-	- Reddit user [BIPIN](https://www.reddit.com/user/BlPlN) shared a guide on on protective gear. Find a copy [here](https://github.com/hashes4merkle/Deverick.io/blob/master/assets/docs/ProtestGuide1.pdf)
+	- Reddit user [BIPIN](https://www.reddit.com/user/BlPlN) shared a guide on on protective gear. Find a copy [here](/assets/docs/ProtestGuide1.pdf)
 
 **What are your rights**
 
@@ -68,6 +68,10 @@ categories: freedom
 3. Setup Groups to service broadcast messages. 
 4. Secure your phone before attending a protest - [Verge Article](https://www.theverge.com/21276979/phone-protest-demonstration-activism-digital-how-to-security-privacy)
 5. Hide faces and Scrub metadata before posting online - [Verge Article](https://www.theverge.com/21281897/how-to-hide-faces-scrub-metadata-photograph-video-protest)
+
+
+![Protest Gear](/assets/images/hongkong.jpeg "Protest Gear")
+
 
 **Protest Survival Pack**
 
@@ -91,7 +95,7 @@ categories: freedom
 - Pepper Spray Wash  
 	- 3 spoons of baking soda 
 	- 1 16oz water in a sprayer.
-![Protest Gear](/assets/images/hongkong.jpeg "Protest Gear")
+
 
 If you have useful information to add, drop me a line on twitter, email or open a pull request on github. I'll get it updated ASAP. Knowledge is power! We are in this together!
 
