@@ -11,6 +11,9 @@ categories: freedom
 	- Find the twitter thread [here](https://twitter.com/ACLU/status/1268588989738618885?s=20)
 	- Watch the video [here](https://twitter.com/i/status/1268314519291518984)
 2. **[Basic guidelines](https://americatalks.com/politics/13-steps-to-prepare-for-civil-unrest/)**
+2. **Learn from [Hong Kong](https://twitter.com/JoshuaPotash/status/1268773836272656384?s=20)**
+	![Protest Roles](/assets/images/protest_roles.jpeg "Protest Roles")
+
 3. **[Surveillance Self-Defense](https://ssd.eff.org/en/module/attending-protest) from the EFF**
 3. **[Understand how they work](https://www.policeone.com/police-products/emergency-preparedness/articles/12-things-every-police-departments-civil-unrest-plan-needs-Nny9wOSfXLUlYBps/)**
 4. **[How they think](https://thecrimereport.org/2020/03/09/854885/)**
@@ -84,9 +87,11 @@ categories: freedom
 	- Comms - Scanners, Radios Cellphones, Topographicals, train maps
 - Umbrella
 - Laser pointers
+- Leaf Bloewrs to disperse the tear gas
 - Pepper Spray Wash  
 	- 3 spoons of baking soda 
 	- 1 16oz water in a sprayer.
+![Protest Gear](/assets/images/hongkong.jpeg "Protest Gear")
 
 If you have useful information to add, drop me a line on twitter, email or open a pull request on github. I'll get it updated ASAP. Knowledge is power! We are in this together!
 
