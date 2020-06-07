@@ -11,6 +11,7 @@ categories: freedom
 	- Find the twitter thread [here](https://twitter.com/ACLU/status/1268588989738618885?s=20)
 	- Watch the video [here](https://twitter.com/i/status/1268314519291518984)
 2. **[Basic guidelines](https://americatalks.com/politics/13-steps-to-prepare-for-civil-unrest/)**
+3. **[Surveillance Self-Defense](https://ssd.eff.org/en/module/attending-protest) from the EFF**
 3. **[Understand how they work](https://www.policeone.com/police-products/emergency-preparedness/articles/12-things-every-police-departments-civil-unrest-plan-needs-Nny9wOSfXLUlYBps/)**
 4. **[How they think](https://thecrimereport.org/2020/03/09/854885/)**
 	- **Reasons for Riot Forces**
