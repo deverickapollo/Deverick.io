@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "App of the Month"
+title:  "Session Private Messenger Released"
 date:   2020-05-04 19:38:27 +0200
 categories: apps
 ---
