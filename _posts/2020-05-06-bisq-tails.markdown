@@ -12,26 +12,81 @@ categories: Bisq
 
 **Bisq on Tails**
 
-Recently, Bisq released an update to run over torsocks. Here is a short guide to avoid some headaches.  Most of the script was borrowed from @sejktmcsdlmfhsc on [github issue #2278](https://github.com/bisq-network/bisq/issues/2278)
+Recently, Bisq released an update to run over torsocks. Here is a short guide to avoid some headaches.  Most of the script was initially borrowed from @sejktmcsdlmfhsc on [github issue #2278](https://github.com/bisq-network/bisq/issues/2278) and later updated by the Bisq team with this [post](https://bisq.wiki/Running_Bisq_on_Tails).
 
 Follow the script below for linux. It should be rather straight forward. We are creating a directory and linking a backup file for Bisq to recognize at runtime.
 
-Next, we will also push two firewall rules to approve Bisq.  This is required if you are using Tails OS. Yes, that means you.
-
-Last, we will fire up our copy Bisq.  You may need to run this as a sudo user depending on your permission on the system.  
+Finally, we will fire up our copy Bisq.  You may need to run this as a sudo user depending on your permission on the system.  If you don't know what is going on here, slow down.
 
 ```bash
 #!/bin/bash
-mkdir -p /home/amnesia/.localshare/Bisq
-ln -r -s /home/amnesia/Persistent/Bisq/backup /home/amnesia/.localshre/Bisq
+
+# Change to the location of your Bisq package.
+sudo dpkg -i /media/amnesia/Bisq-64bit-1.3.7.deb
 
 #make authcookie readable:
 sudo chmod o+r /var/run/tor/control.authcookie
-#aded iptables rules to connect to nodes
-sudo iptables -I OUTPUT 3 -d 127.0.0.1 -o lo -p tcp --dport 8333 --syn -m owner --uid-owner amnesia -j ACCEPT #bisq
-sudo iptables -I OUTPUT 3 -d 127.0.0.1 -o lo -p tcp --dport 8000 --syn -m owner --uid-owner amnesia -j ACCEPT #bisq
+mkdir -p /home/amnesia/.local/share/Bisq
+ln -r -s /media/amnesia/Persistent/bisq/backup/bisq_backup_date/* /home/amnesia/.local/share/Bisq
+sudo sed -i "s|Exec=/opt/Bisq/Bisq --torControlPort 9051 --torControlCookieFile=/var/run/tor/control.authcookie --torControlUseSafeCookieAuth --socks5ProxyHttpAddress=127.0.0.1:9050 --socks5ProxyBtcAddress=127.0.0.1:9050 --useTorForBtc=True|" /usr/share/applications/Bisq.desktop
+
+sudo echo '---
+- apparmor-profiles:
+    - '/opt/Bisq/Bisq'
+  users:
+    - 'amnesia'
+  commands:
+    AUTHCHALLENGE:
+      - 'SAFECOOKIE .*'
+    SETEVENTS:
+      - 'CIRC WARN ERR'
+      - 'CIRC ORCONN INFO NOTICE WARN ERR HS_DESC HS_DESC_CONTENT'
+    GETINFO:
+      - 'net/listeners/socks'
+    ADD_ONION:
+      - pattern:     'NEW:(\S+) Port=9999,(\S+)'
+        replacement: 'NEW:{} Port=9999,{client-address}:{}'
+      - pattern:     '(\S+):(\S+) Port=9999,(\S+)'
+        replacement: '{}:{} Port=9999,{client-address}:{}'
+    DEL_ONION:
+      - '.+'
+    HSFETCH:
+      - '.+'
+  events:
+    CIRC:
+      suppress: true
+    ORCONN:
+      suppress: true
+    INFO:
+      suppress: true
+    NOTICE:
+      suppress: true
+    WARN:
+      suppress: true
+    ERR:
+      suppress: true
+    HS_DESC:
+      response:
+        - pattern:     '650 HS_DESC CREATED (\S+) (\S+) (\S+) \S+ (.+)'
+          replacement: '650 HS_DESC CREATED {} {} {} redacted {}'
+        - pattern:     '650 HS_DESC UPLOAD (\S+) (\S+) .*'
+          replacement: '650 HS_DESC UPLOAD {} {} redacted redacted'
+        - pattern:     '650 HS_DESC UPLOADED (\S+) (\S+) .+'
+          replacement: '650 HS_DESC UPLOADED {} {} redacted'
+        - pattern:     '650 HS_DESC REQUESTED (\S+) NO_AUTH'
+          replacement: '650 HS_DESC REQUESTED {} NO_AUTH'
+        - pattern:     '650 HS_DESC REQUESTED (\S+) NO_AUTH \S+ \S+'
+          replacement: '650 HS_DESC REQUESTED {} NO_AUTH redacted redacted'
+        - pattern:     '650 HS_DESC RECEIVED (\S+) NO_AUTH \S+ \S+'
+          replacement: '650 HS_DESC RECEIVED {} NO_AUTH redacted redacted'
+        - pattern:     '.*'
+          replacement: ''
+    HS_DESC_CONTENT:
+      suppress: true' /etc/onion-grater.d/bisq.yml
+sudo service onion-grater restart
+
 #and start Bisq:
-./Bisq --torControlPort 9052 --torControlCookieFile=/var/run/tor/control.authcookie --torControlUseSafeCookieAuth --seedNodes=ef5qnzx6znifo3df.onion:8000,s67qglwhkgkyvr74.onion:8000 --socks5ProxyBtcAddress=127.0.0.1:9050 --socks5ProxyHttpAddress=127.0.0.1:9050 --useLocalhostForP2P=True --useTorForBtc=True
+/opt/Bisq/Bisq --torControlPort 9051 --torControlCookieFile=/var/run/tor/control.authcookie --torControlUseSafeCookieAuth --socks5ProxyHttpAddress=127.0.0.1:9050 --socks5ProxyBtcAddress=127.0.0.1:9050 --useTorForBtc=True
 ```
 
 **Bisq Trading**
