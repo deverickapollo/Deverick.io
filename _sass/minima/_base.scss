@@ -251,27 +251,35 @@ table {
   }
 }
 
-.twitter-container{
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-around;
-  align-content: stretch;
+.twitter-container {
+  display: -webkit-flex ;
+  display: flex ;
+  flex-direction: row ;
+  flex-wrap: wrap ;
+  align-items: stretch ;
+  justify-content: space-around ;
+  align-content: stretch ;
+}
+
+@media only screen and  (max-width: 768px) {
+  .twitter-left{
+    display: none;  
+  }
 }
 
 .twitter-left {
-  margin-left: 100 ;
-  margin-right: 100 ;
-  max-width: none;
-  max-width: 100%;
-  order: 0;
-  flex-grow: 1;
-  padding-left: $spacing-unit;
+  margin-left: $spacing-unit ;
+  margin-right: $spacing-unit ;
+  max-width: none ;
+  max-width: 100% ;
+  order: 0 ;
+  flex-grow: 1 ;
+  padding-left: $spacing-unit ;
 }
 
-.post-right{
+
+
+.post-right {
   order: 1;
   flex-grow: 8;
 
