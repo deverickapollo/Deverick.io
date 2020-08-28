@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bisq - A Guide on Replacing Coinbase"
-date:   2020-05-04 19:38:27 +0200
+date:   2020-07-16 13:00:00 +0200
 categories: Bisq
 ---
 **General Philosophy**
