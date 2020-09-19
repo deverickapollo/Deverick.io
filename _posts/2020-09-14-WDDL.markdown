@@ -6,7 +6,7 @@ categories: security
 ---
 **Why the fuss?**
 
-Designing applications with cryptographic capabilities demand performance, reliability,
+Designing successful cryptographic applications requires also considering performance, reliability,
 and security. Embedded devices such as smartwatches and GPS systems are most often
 built using FPGA and ASIC chips. ASICs are known to have a higher cost of production
 compared to FPGAs and are therefore used in high volume production devices. A few
