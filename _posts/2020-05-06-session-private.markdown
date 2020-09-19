@@ -2,7 +2,7 @@
 layout: post
 title:  "Session Private Messenger Released"
 date:   2020-05-04 19:38:27 +0200
-categories: apps
+categories: security
 ---
 
 ![Session App](/assets/images/SESSION_Vert.png "Session App")
@@ -15,7 +15,7 @@ The Loki Foundation has published a new end-to-end encrypted messenger this past
 
 2. To handle asymmetric encryption between parties, the session app takes advantage of the open source **OTR messaging protocol** libraries provided by Signal. 
 
-3. Lastly, messages are stored on the **Loki Network**. This provides a distinct difference from its immediate competitor, Signal.  Although these messages are encrypted/decrypted using state of the art technologgy, the Signal App relies on central servers to store messages whereas Session App stores its message on the Loki Network.
+3. Lastly, messages are stored on the **Loki Network**. This provides a distinct difference from its immediate competitor, Signal.  Although these messages are encrypted/decrypted using state of the art technology, the Signal App relies on central servers to store messages whereas Session App stores its message on the Loki Network.
 
 **What is Perfect Forward Secrecy and why is it important?**
 
