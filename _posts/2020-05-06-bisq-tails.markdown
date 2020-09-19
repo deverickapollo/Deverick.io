@@ -12,7 +12,7 @@ categories: Bisq
 
 **Bisq on Tails**
 
-Recently, Bisq released an update to run over torsocks. Here is a short guide to avoid some headaches.  Most of the script was initially borrowed from @sejktmcsdlmfhsc on [github issue #2278](https://github.com/bisq-network/bisq/issues/2278) and later updated by the Bisq team with this [post](https://bisq.wiki/Running_Bisq_on_Tails).
+Recently, Bisq released an update to run over torsocks. Here is a short guide to avoid some headaches.  Most of the script was initially borrowed from [@sejktmcsdlmfhsc](https://github.com/sejktmcsdlmfhsc) on [github issue #2278](https://github.com/bisq-network/bisq/issues/2278) and later updated by the Bisq team with this [post](https://bisq.wiki/Running_Bisq_on_Tails).
 
 Follow the script below for linux. It should be rather straight forward. We are creating a directory and linking a backup file for Bisq to recognize at runtime.
 
