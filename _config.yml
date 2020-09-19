@@ -1,166 +1,200 @@
-# Welcome to Jekyll!
+# The Site Settings
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT licensed
+
+
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+#--------------------------
+
+title: Deverick.io                          # the main title
+
+tagline: Security Researcher  # it will display as the sub-title
+
+description: >-                        # used by seo meta and the atom feed
+  Powerpoints are the peacocks of the world; all show no meat.
+
+# Replace with the website url, e.g. 'https://username.github.io'
+url: 'https://www.deverick.io'
+
+author: Deverick Simpson                  # change to your full name
+
+avatar: /assets/img/main/self.jpg   # support internet resources
+
+github:
+  username: hashes4merkle             # change to your github username
+
+twitter:
+  username: hashes4merkle            # change to your twitter username
+
+social:
+  name: Deverick Simpson                  # it will shows as the copyright owner in Footer
+  email: deverick@apollolabs.io            # change to your email address
+  links:
+    # The first element serves as the copyright owner's link
+    - https://twitter.com/hashes4merkle      # change to your twitter homepage
+    - https://github.com/hashes4merkle       # change to your github homepage
+    # Uncomment below to add more social links
+    # - https://www.facebook.com/username
+    # - https://www.linkedin.com/in/username
+
+google_site_verification: google_meta_tag_verification # change to your verification string
+
+#--------------------------
+
+
+# Only if your site type is GitHub Project sites and doesn't have a custom domain,
+# change below value to '/projectname'.
+baseurl: ''
+
+# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+timezone: Europe/Berlin
+
+google_analytics:
+  id: ''          # Fill with your Google Analytics ID
+  pv:
+    # The Google Analytics pageviews switch.
+    # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
+    enabled: false
+    # the next options only valid when `google_analytics.pv` is enabled.
+    proxy_url: ''
+    proxy_endpoint: ''
+    cache: false  # pv data local cache, good for the users from GFW area.
+
+disqus:
+  comments: false  # boolean type, the global switch for posts comments.
+  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+
+# Prefer color scheme setting, available values:
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+#     dual   - Follow the system prefer color by default, and a toggle will display
+#              in the left bottom of Sidebar, which used for switch the theme between dark and light.
 #
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#     light  - Use the light color scheme
 #
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
+#     dark   - Use the dark color scheme
 #
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-# Where things are
-sass:
-  sass_dir: _sass
-collections:
-  posts:
-    output          : true
+theme_mode: dual
 
-# Handling Reading
-safe                : false
-include             : [".htaccess"]
-exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
-keep_files          : [".git", ".svn"]
-encoding            : "utf-8"
-markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
-strict_front_matter : false
+# boolean type, global switch for ToC in posts.
+toc: true
 
-# Filtering Content
-show_drafts         : null
-limit_posts         : 0
-future              : false
-unpublished         : false
+paginate: 10
 
-# Plugins
-whitelist           : []
-plugins             : []
+markdown: kramdown
 
-# Conversion
-markdown            : kramdown
-highlighter         : rouge
-lsi                 : false
-excerpt_separator   : "\n\n"
-incremental         : false
-
-# Serving
-detach              : false
-port                : 4000
-host                : 127.0.0.1
-#host               : https://github.com/hashes4merkle
-baseurl             : "" # does not include hostname
-show_dir_listing    : false
-
-quiet               : false
-verbose             : false
-defaults            : []
-
-liquid:
-  error_mode        : warn
-  strict_filters    : false
-  strict_variables  : false
-
-# Markdown Processors
-rdiscount:
-  extensions        : []
-
-redcarpet:
-  extensions        : []
+highlighter: rouge
 
 kramdown:
-  auto_ids          : true
-  entity_output     : as_char
-  toc_levels        : [1, 2, 3, 4, 5, 6]
-  smart_quotes      : lsquo,rsquo,ldquo,rdquo
-  input             : GFM
-  hard_wrap         : false
-  footnote_nr       : 1
-  show_warnings     : false
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
-email: deverick@apollolabs.io
-author: Deverick Simpson
-description: Powerpoints are the peacocks of the world; all show no meat.
+# DO NOT change this unless you're a Pro user on Jekyll and Web development,
+# or you think you're smart enough to change other relevant URLs within this template.
+permalink: /posts/:title/
 
-url: "https://www.deverick.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: hashes4merkle
-github_username:  hashes4merkle
-rss: RSS
+defaults:
+  -
+    scope:
+      path: ""          # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      comments: true    # Enable comments in posts.
+      toc: true         # Display TOC column in posts.
+      location: Post
+      breadcrumb:
+        -
+          label: Posts
+          url: /
+  -
+    scope:
+      path: _drafts
+    values:
+      comments: false
+  -
+    scope:
+      path: tags
+    values:
+      tab_active: Tags
+      location: Tag
+      breadcrumb:
+        -
+          label: Home
+          url: /
+        -
+          label: Tags
+          url: /tabs/tags/
+  -
+    scope:
+      path: categories
+    values:
+      tab_active: Categories
+      location: Category
+      breadcrumb:
+        -
+          label: Home
+          url: /
+        -
+          label: Categories
+          url: /tabs/categories/
+  -
+    scope:
+      path: tabs
+    values:
+      layout: page
+      dynamic_title: true    # Hide title in mobile screens.
+      breadcrumb:
+        -
+          label: Home
+          url: /
 
-share-links-active:
-    twitter: true
 
-url-pretty: "Deverick.io"
+sass:
+  sass_dir: /assets/css
+  style: compressed
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: [html, head, body, dt, dd, rt, rp,
+            optgroup, option, colgroup, caption,
+            thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
 
-############################################################
-# Site configuration for the Jekyll 3 Pagination Gem
-# The values here represent the defaults if nothing is set
-pagination:
-  
-  # Site-wide kill switch, disabled here it doesn't run at all 
-  enabled: true
+exclude:
+  - vendor        # Avoid Jekyll mistakenly read the vendor directory on Travis-CI's VM .
+  - Gemfile.lock
+  - Gemfile
+  - tools
+  - docs
+  - README.md
+  - LICENSE
 
-  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: false
-
-  # The default document collection to paginate if nothing is specified ('posts' is default)
-  collection: 'posts'
-
-  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 10
-
-  # The permalink structure for the paginated pages (this can be any level deep)
-  permalink: '/page/:num/' # Pages are index.html inside this folder (default)
-  #permalink: '/page/:num.html' # Pages are simple html files 
-  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
-
-  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
-  title: ':title - page :num'
-
-  # Limit how many pagenated pages to create (default: 0, means all)
-  limit: 0
-  
-  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
-  sort_field: 'date'
-
-  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
-  sort_reverse: true
-
-  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
-  category: 'posts'
-
-  # Optional, the default tag to use, omit to disable
-  tag: ''
-
-  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts, 
-  # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
-  locale: '' 
-
- # Optional,omit or set both before and after to zero to disable. 
- # Controls how the pagination trail for the paginated pages look like. 
-  trail: 
-    before: 2
-    after: 2
-
-  # Optional, the default file extension for generated pages (e.g html, json, xml).
-  # Internally this is set to html by default
-  extension: html
-
-  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
-  # Without file extension
-  indexpage: 'index'
-
-############################################################
+sitemap_exclude:  # Sitemap will exclude the following items.
+  fuzzy:
+    - /assets/
+  accurate:
+    - /norobots/
+    - /tabs/
+    - /categories/
+    - /tags/
+    - /posts/
+    - 404.html
+    - feed.xml
+    - sitemap.xml
+    - robots.txt
+    - redirects.json

@@ -73,7 +73,7 @@ the DES algorithm. Furthermore, these findings provide a baseline for understand
 limitations of the algorithm and attack on the FPGA.
 
 
-{% include image.html url="/assets/images/table/table4.png" description="[2]" %}
+{% include image.html url="/assets/img/table/table4.png" description="[2]" %}
 
 
 The WDDL implementation proved to be more resilient against both DPA and CPA attacks.
@@ -88,7 +88,7 @@ against DES on the FPGA board. It is important to note that implementing WDDL do
 incur a cost. Specifically, it was found that a single-ended DES module required 16 clock
 cycles but a dual-rail module required double.
 
-{% include image.html url="/assets/images/table/table5.png" description="[2]" %}
+{% include image.html url="/assets/img/table/table5.png" description="[2]" %}
 
 WDDL+ was demonstrated as the most secure of the three DES modules, only revealing
 the key from one sbox during execution. In Table VI, it is shown that only DPA was able
@@ -97,7 +97,7 @@ that "more sboxes could be broken by enhancing the acquisition platform sensitiv
 attack algorithm[2]."
 
 
-{% include image.html url="/assets/images/table/table6.png" description="[2]" %}
+{% include image.html url="/assets/img/table/table6.png" description="[2]" %}
 
 Finally, S. Guilley, J.-L. Danger et al. propose a method for generating 6 &rarr; 4 Sboxes
 for positive logic such as WDDL+. The heuristic uses a decoder for its two MSB and

@@ -4,3 +4,7 @@ node_modules/
 .jekyll-metadata
 *.DS_Store
 *.lock
+.DS_Store
+assets/.DS_Store
+assets/Session/.DS_Store
+.DS_Store

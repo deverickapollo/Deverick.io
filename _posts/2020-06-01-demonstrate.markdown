@@ -12,7 +12,7 @@ categories: freedom
 	- Watch the video [here](https://twitter.com/i/status/1268314519291518984)
 2. **[Basic guidelines](https://americatalks.com/politics/13-steps-to-prepare-for-civil-unrest/)**
 2. **Understand how to organize -- [Hong Kong](https://twitter.com/JoshuaPotash/status/1268773836272656384?s=20)**
-	![Protest Roles](/assets/images/protest_roles.jpeg "Protest Roles")
+	![Protest Roles](/assets/img/main/protest_roles.jpeg "Protest Roles")
 
 3. **[Surveillance Self-Defense](https://ssd.eff.org/en/module/attending-protest) from the EFF**
 3. **[Understand how they work](https://www.policeone.com/police-products/emergency-preparedness/articles/12-things-every-police-departments-civil-unrest-plan-needs-Nny9wOSfXLUlYBps/)**
@@ -70,7 +70,7 @@ categories: freedom
 5. Hide faces and Scrub metadata before posting online - [Verge Article](https://www.theverge.com/21281897/how-to-hide-faces-scrub-metadata-photograph-video-protest)
 
 
-![Protest Gear](/assets/images/hongkong.jpeg "Protest Gear")
+![Protest Gear](/assets/img/main/hongkong.jpeg "Protest Gear")
 
 
 **Protest Survival Pack**
@@ -99,5 +99,4 @@ categories: freedom
 
 If you have useful information to add, drop me a line on twitter, email or open a pull request on github. I'll get it updated ASAP. Knowledge is power! We are in this together!
 
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=tYFOXeItRFM" frameborder="0" allowfullscreen></iframe>
 
