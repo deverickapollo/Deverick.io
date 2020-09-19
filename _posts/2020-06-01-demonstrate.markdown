@@ -99,4 +99,5 @@ categories: freedom
 
 If you have useful information to add, drop me a line on twitter, email or open a pull request on github. I'll get it updated ASAP. Knowledge is power! We are in this together!
 
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=tYFOXeItRFM" frameborder="0" allowfullscreen></iframe>
 
