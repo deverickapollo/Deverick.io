@@ -6,117 +6,40 @@ categories: security
 ---
 **Why the fuss?**
 
-Designing successful cryptographic applications requires also considering performance, reliability,
-and security. Embedded devices such as smartwatches and GPS systems are most often
-built using FPGA and ASIC chips. ASICs are known to have a higher cost of production
-compared to FPGAs and are therefore used in high volume production devices. A few
-specific applications of ASIC hardware includes bank cards, identification documents, and
-2fa hardware modules.
+Designing successful cryptographic applications requires also considering performance, reliability, and security. Embedded devices such as smartwatches and GPS systems are most often built using FPGA and ASIC chips.  ASICs are known to have a higher cost of production compared to FPGAs and are therefore used in high volume production devices.  A few specific applications of ASIC hardware includes bank cards, identification documents, and 2fa hardware modules.
 
-Conversely, FPGA’s are found in more mission-critical devices such as those used in
-military, aviation as well as in space. FPGA’s are beneficial in these areas as the circuitry
-is reprogrammable. That is to say, any circuit optimizations or security vulnerabilities
-discovered after deployment can be implemented and redeployed without replacing the
-hardware as with ASIC devices. This reduces long term costs in running a system and
-continues to be an attractive characteristic of investing in FPGA technology.
+Conversely, FPGA’s are found in more mission-critical devices such as those used in military, aviation as well as in space. FPGA’s are beneficial in these areas as the circuitry is reprogrammable.  That is to say, any circuit optimizations or security vulnerabilities discovered after deployment can be implemented and redeployed without replacing the hardware as with ASIC devices.  This reduces long term costs in running a system and continues to be an attractive characteristic of investing in FPGA technology.
 
-An important requirement of a cryptographic system is the ability of the device to remain
-secure in the presence of an attacker. A method known as Side Channel Analysis (SCA)
-attack has been an open topic in security for several years now. SCA attacks use feedback
-from the device to break otherwise protected cryptographic systems. As discussed in slides
-10-13 of P. Langendörfer., most SCA attacks are categorized as either active or passive.
-Active attacks are defined as those involving an attacker probing the device to cause data
-leakage. For example, applying a voltage to a circuit causing the system to enter a fault
-state and potentially reveal restricted data. To protect against active attackers, it is
-common for systems to implement protections such as error detection.
+An important requirement of a cryptographic system is the ability of the device to remain secure in the presence of an attacker.  A method known as Side Channel Analysis (SCA) attack has been an open topic in security for several years now. SCA attacks use feedback from the device to break otherwise protected cryptographic systems.  As discussed in slides 10-13 of P. Langendörfer., most SCA attacks are categorized as either active or passive.  Active attacks are defined as those involving an attacker probing the device to cause data leakage.  For example, applying a voltage to a circuit causing the system to enter a fault state and potentially reveal restricted data.  To protect against active attackers, it is common for systems to implement protections such as error detection.
 
-Passive attacks, however, involve an attacker "observing the devices emanations while it
-is performing a cryptographic operation"[2]. To protect against passive attacks, common
-implementations involve "randomizing the execution, using clock jitter, dummy or decoy
-clock cycles"[2] to reduce any statistical advantage. One such technique, known as Wave
-Dynamic Differential Logic(WDDL), attempts to minimize side-channel attacks by balancing
-differences in power usage when running cryptographic applications on the device.
-In general, "a WDDL gate uses a fixed amount of charge for every transition and has for that
-reason at all times a constant power consumption independent of the signal transitions"[5]. S.
-Guilley, J.-L. Danger et al. (2008) focus on understanding the implications of implementing
-DES with power consumption balancing strategies such as WDDL and WDDL+.
+Passive attacks, however, involve an attacker "observing the devices emanations while it is performing a cryptographic operation"[2].  To protect against passive attacks, common implementations involve "randomizing the execution, using clock jitter, dummy or decoy clock cycles"[2] to reduce any statistical advantage.  One such technique, known as Wave Dynamic Differential Logic(WDDL), attempts to minimize side-channel attacks by balancing differences in power usage when running cryptographic applications on the device.  In general, "a WDDL gate uses a fixed amount of charge for every transition and has for that reason at all times a constant power consumption independent of the signal transitions"[5]. S. Guilley, J.-L. Danger et al. (2008) focus on understanding the implications of implementing DES with power consumption balancing strategies such as WDDL and WDDL+.
 
 **WWDL on the FPGA**
 
-A selection of WDDL implementations has been developed for the FPGA. Both Separated
-Dynamic Dual-Rail Logic (SDDL) and Double WDDL (DWDDL) were constructed and
-later concluded to be insecure against side channel attacks. Specifically, it was found that
-DWDDL leaked electromagnetic emanations allowing the listener to discriminate signals
-on the chip. Furthermore, SDDL implementations were vulnerable due to "glitches caused
-by a race between a global signal(precharge) and local signals(differential data pairs)[2]."
+A selection of WDDL implementations has been developed for the FPGA. Both Separated Dynamic Dual-Rail Logic (SDDL) and Double WDDL (DWDDL) were constructed and later concluded to be insecure against side channel attacks.  Specifically, it was found that DWDDL leaked electromagnetic emanations allowing the listener to discriminate signals on the chip.  Furthermore, SDDL implementations were vulnerable due to "glitches caused by a race between a global signal(precharge) and local signals(differential data pairs)[2]."
 
-The DES Encryption Algorithm is a well understood cryptographic system and is broken
-in [1] (pp 78 - 85) and [4]. In [1] (pp 85-87), it is also shown that most variants of DES
-further weaken the encryption system. Furthermore, the table found on slide 5 of Security
-Threat Analysis estimated in 2005 it would take a small business only 5 days to decrypt
-an 80-bit message. That time is further reduced to 3.5 seconds for a larger organization.
-Improvements such as Triple-DES, which uses 3 rounds of DES, have been proposed and
-are still in use today [4].
+The DES Encryption Algorithm is a well understood cryptographic system and is broken in [1] (pp 78 - 85) and [4].  In [1] (pp 85-87), it is also shown that most variants of DES further weaken the encryption system.  Furthermore, the table found on slide 5 of Security Threat Analysis estimated in 2005 it would take a small business only 5 days to decrypt an 80-bit message. That time is further reduced to 3.5 seconds for a larger organization.  Improvements such as Triple-DES, which uses 3 rounds of DES, have been proposed and are still in use today [4].
 
-For comparative analysis, two DES modules, one secure and another insecure are implemented
-on a Parallax FPGA board. To attack the DES modules, both Differential Power
-Analysis (DPA) and Correlation Power Analysis (CPA) were executed on the first and last
-rounds of the algorithm. On slide 11 of [3], P. Langendorfer defines CPA as a statistical
-analysis method using correlation coefficients to describe the relationship between two
-variables. Likewise, DPA is defined as an analysis method however it uses a difference of
-mean strategy to describe relationships between variables.
+For comparative analysis, two DES modules, one secure and another insecure are implemented on a Parallax FPGA board.  To attack the DES modules, both Differential Power Analysis (DPA) and Correlation Power Analysis (CPA) were executed on the first and last rounds of the algorithm.  On slide 11 of [3], P. Langendorfer defines CPA as a statistical analysis method using correlation coefficients to describe the relationship between two variables.  Likewise, DPA is defined as an analysis method however it uses a difference of mean strategy to describe relationships between variables.
 
-Against the insecure module, the DPA attack was able to expose the key after an average
-of 7373 measurements while CPA was slightly more efficient, being able to recover the key
-in 6811 measurements on average. This is consistent with previous research findings on
-the DES algorithm. Furthermore, these findings provide a baseline for understanding the
-limitations of the algorithm and attack on the FPGA.
-
+Against the insecure module, the DPA attack was able to expose the key after an average of 7373 measurements while CPA was slightly more efficient, being able to recover the key in 6811 measurements on average.  This is consistent with previous research findings on the DES algorithm.  Furthermore, these findings provide a baseline for understanding the limitations of the algorithm and attack on the FPGA.
 
 {% include image.html url="/assets/img/table/table4.png" description="[2]" %}
 
-
-The WDDL implementation proved to be more resilient against both DPA and CPA attacks.
-During the CPA simulation, three S-Boxes exposed the key while during DPA only one key
-was exposed. It may also be important to note that the overall number of measurements
-required to reveal the key was also significantly higher for the DPA attack. As shown in
-Table V below, the CPA attack required an average of 122,165 measurements and the
-DPA attack required 224,018 measurements. All correlation data for the CPA traces are
-normalized which allows for signal retrieval in noisier environments[2]. Comparing the two
-measurements from the data shows CPA attacks are far more performant than DPA attacks
-against DES on the FPGA board. It is important to note that implementing WDDL does
-incur a cost. Specifically, it was found that a single-ended DES module required 16 clock
-cycles but a dual-rail module required double.
+The WDDL implementation proved to be more resilient against both DPA and CPA attacks.  During the CPA simulation, three S-Boxes exposed the key while during DPA only one key was exposed.  It may also be important to note that the overall number of measurements required to reveal the key was also significantly higher for the DPA attack. As shown in Table V below, the CPA attack required an average of 122,165 measurements and the DPA attack required 224,018 measurements.  All correlation data for the CPA traces are normalized which allows for signal retrieval in noisier environments[2].  Comparing the two measurements from the data shows CPA attacks are far more performant than DPA attacks against DES on the FPGA board. It is important to note that implementing WDDL does incur a cost.  Specifically, it was found that a single-ended DES module required 16 clock cycles but a dual-rail module required double.
 
 {% include image.html url="/assets/img/table/table5.png" description="[2]" %}
 
-WDDL+ was demonstrated as the most secure of the three DES modules, only revealing
-the key from one sbox during execution. In Table VI, it is shown that only DPA was able
-to reveal the key after 123,743 measurements on the first round of DES. It is hypothesized
-that "more sboxes could be broken by enhancing the acquisition platform sensitivity or the
-attack algorithm[2]."
+WDDL+ was demonstrated as the most secure of the three DES modules, only revealing the key from one sbox during execution.  In Table VI, it is shown that only DPA was able to reveal the key after 123,743 measurements on the first round of DES. It is hypothesized that "more sboxes could be broken by enhancing the acquisition platform sensitivity or the attack algorithm[2]."
 
 
 {% include image.html url="/assets/img/table/table6.png" description="[2]" %}
 
-Finally, S. Guilley, J.-L. Danger et al. propose a method for generating 6 &rarr; 4 Sboxes
-for positive logic such as WDDL+. The heuristic uses a decoder for its two MSB and
-a multiplexor-tree for the LSB’s to generate a compact netlist in LuT4. It was further
-suggested secured synthesizers would become in demand as optimizations continue to be
+Finally, S. Guilley, J.-L. Danger et al. propose a method for generating 6 &rarr; 4 Sboxes for positive logic such as WDDL+.  The heuristic uses a decoder for its two MSB and a multiplexor-tree for the LSB’s to generate a compact netlist in LuT4.  It was further suggested secured synthesizers would become in demand as optimizations continue to be
 researched[2].
 
-It is important to understand the current state of the art and its limitations to continue
-producing secure applications whether it be from SCA or other attack vectors. S. Guilley,
-J.-L. Danger et al. (2008) simulate a real-world application and evaluate the effectiveness
-of WDDL as a mitigation strategy to Differential Power Analysis and Correlational Power
-Anlaysis attacks. The results exposed a weakness in non-positive WDDL and show that
-WDDL+ was most effective against DPA and CPA attacks.
-Although effective, the capability of a DPA attack to recover even one sbox in reasonable
-time suggests potential optimizations could improvement attacks on cryptographic systems
-implementing WDDL+ as a security mechanism. The degrated performance also presents a
-challenge. As the demand for embedded systems continues, FPGA designers will be forced
-to find novel ways to solve problems such as balancing power consumption with security
-features.
+It is important to understand the current state of the art and its limitations to continue producing secure applications whether it be from SCA or other attack vectors.  S. Guilley, J.-L. Danger et al. (2008) simulate a real-world application and evaluate the effectiveness of WDDL as a mitigation strategy to Differential Power Analysis and Correlational Power Anlaysis attacks.  The results exposed a weakness in non-positive WDDL and show that
+WDDL+ was most effective against DPA and CPA attacks.  Although effective, the capability of a DPA attack to recover even one sbox in reasonable time suggests potential optimizations could improvement attacks on cryptographic systems implementing WDDL+ as a security mechanism.  The degrated performance also presents a challenge.  As the demand for embedded systems continues, FPGA designers will be forced to find novel ways to solve problems such as balancing power consumption with security features.
 
 **REFERENCES**
 
