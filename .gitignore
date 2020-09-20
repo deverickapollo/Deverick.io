@@ -8,3 +8,4 @@ node_modules/
 assets/.DS_Store
 assets/Session/.DS_Store
 .DS_Store
+.container

@@ -10,6 +10,27 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="{{ site.twitter.hashtag }}">
+  <meta name="twitter:creator" content="{{ site.twitter.hashtag }}">
+  <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
+  {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">
+  {% else %}
+    <meta name="twitter:title" content="{{ site.title }}">
+  {% endif %}
+  {% if page.url %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  {% endif %}
+
+
+  {% if page.image %}
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/img/main/{{ page.image }}">
+  {% else %}
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/img/main/self.jpg">
+  {% endif %}
+
+
   <title>
   {%- unless page.layout == "home" -%}
     {{ page.title | append: " | "}}

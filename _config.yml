@@ -27,6 +27,7 @@ github:
 
 twitter:
   username: hashes4merkle            # change to your twitter username
+  hashtag: '@hashes4merkle'
 
 social:
   name: Deverick Simpson                  # it will shows as the copyright owner in Footer
@@ -198,3 +199,6 @@ sitemap_exclude:  # Sitemap will exclude the following items.
     - sitemap.xml
     - robots.txt
     - redirects.json
+
+
+
