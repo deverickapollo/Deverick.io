@@ -15,7 +15,7 @@ I've been moving to Qubes OS this past year. This past week I needed a windows h
 ```qvm-start win10```
 
 **Windows 10 Install**  
-Follow the windows installation instrucitons [here](https://www.qubes-os.org/doc/windows-vm/)
+Follow the windows installation instructions [here](https://www.qubes-os.org/doc/windows-vm/)
 
 1. Update the OS  
 2. Install desired software  
