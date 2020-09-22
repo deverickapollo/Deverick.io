@@ -53,6 +53,7 @@ categories: freedom
 8. **[Collection of articles on what to do at protests](https://www.reddit.com/r/ProtestPros/comments/gs0p0m/bring_a_leaf_blower_to_fight_against_tear_gas/)**
 9. **[Reddit Protest Pros](https://www.reddit.com/r/ProtestPros/)**
 	- Reddit user [BIPIN](https://www.reddit.com/user/BlPlN) shared a guide on on protective gear. Find a copy [here](/assets/docs/ProtestGuide1.pdf)
+10. **[The Swarm Approach to Warfare: an Introduction for Frontliners](https://illwilleditions.com/the-swarm-approach-to-warfare-an-introduction-for-frontliners/)**
 
 **What are your rights**
 
