@@ -28,7 +28,7 @@ Follow the windows installation instructions [here](https://www.qubes-os.org/doc
 We need a proxy machine to send traffic. Some malware will reach out to the web and we need respond.  
 
 1. Deploy Debian VM  
-2. Install INetSim and PolarProxy. (Link)[https://www.netresec.com/?page=Blog&month=2019-12&post=Installing-a-Fake-Internet-with-INetSim-and-PolarProxy]  
+2. Install INetSim and PolarProxy. [Link](https://www.netresec.com/?page=Blog&month=2019-12&post=Installing-a-Fake-Internet-with-INetSim-and-PolarProxy)  
 	1. Setup a Dummy interface
 		1. ```sudo lsmod | grep dummy```  
 		2. ```sudo modprobe dummy```  

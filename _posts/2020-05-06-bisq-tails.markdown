@@ -3,8 +3,9 @@ layout: post
 title:  "Bisq - A Guide on Replacing Coinbase"
 date:   2020-07-16 13:00:00 +0200
 categories: ["computer science"]
-tag: [software, security]
+tag: software
 ---
+
 **General Philosophy**
 
 1. Peer to peer services provides a level of privacy not available with services such as Coinbase and Cash App.
