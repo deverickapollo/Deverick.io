@@ -2,7 +2,8 @@
 layout: post
 title:  "Bisq - A Guide on Replacing Coinbase"
 date:   2020-07-16 13:00:00 +0200
-categories: Bisq
+categories: ["computer science"]
+tag: [software, security]
 ---
 **General Philosophy**
 

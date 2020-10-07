@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a Malware Lab in Qubes"
 date:   2020-09-17 9:00:00 +0200
-categories: security
+categories: ["computer science"]
 ---
 
 I've been moving to Qubes OS this past year. This past week I needed a windows hacking lab for some research.  I am going to isloate the network from the other VMs to prevent any malicious code from getting out of control.  

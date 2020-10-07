@@ -2,7 +2,7 @@
 layout: post
 title:  "Protest Survival Guide"
 date:   2020-06-01 19:38:27 +0200
-categories: freedom
+categories: [freedom]
 ---
 
 **I thought it would be good to compile useful information to protect our citizens in protest. Additional links and tips welcomed!**

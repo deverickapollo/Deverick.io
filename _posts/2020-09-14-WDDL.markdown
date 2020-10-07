@@ -2,7 +2,8 @@
 layout: post
 title:  "A Case Study on WDDL+ as a Security Mechanism for FPGA Devices"
 date:   2020-09-13 24:00:00 +0200
-categories: security
+categories: ["computer science"]
+tag: [hardware]
 ---
 **Why the fuss?**
 
