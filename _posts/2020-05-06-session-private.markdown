@@ -4,7 +4,7 @@ title:  "Session Private Messenger Released"
 date:   2020-05-04 19:38:27 +0200
 categories: ["computer science"]
 tag: software
-image: /assets/img/main/SESSION_Vert.png
+image: /assets/img/main/session-green-transparent.png
 ---
 
 The Loki Foundation has published a new end-to-end encrypted messenger this past month. The session app is a privacy-focused messenger with a simple mission, to provide anonymous communication.  Lets highlight some security features of the app that were interesting to me.  
