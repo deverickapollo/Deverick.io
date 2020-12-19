@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: deverick.io
+Token: 8132ecd40695d35cb9fde06383d8f71bc7f79d015c0109e3aba54c023e6e92fe
