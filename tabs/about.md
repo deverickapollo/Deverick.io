@@ -22,5 +22,3 @@ Prompted by Faketoshi, I have included the [bitcoin white paper](/assets/docs/bi
 
 Monero Donations at: 
 84MEfgZUNw7RpiYaULBRZQi64MXT7uWpHNYfGGF95hXzEG3JWfpsG2bVE7d9DUcqbzdRTUhkNJLfedjQ4UHsDhQj1Zbx3Uy
-
-![Deverick](/assets/img/main/self.jpg "Deverick")
