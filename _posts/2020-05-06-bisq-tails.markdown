@@ -109,10 +109,10 @@ Incentive to prevent either party from cheating. If you need BTC and only have X
 
 ***Why are offers grayed out?***
 1. You do not have a national account or cryptocurrency account setup for the given offer.
-2. The trade offer value is larger than your current limit. Account signing will reduce these limits.  Plese read [Bisq Official Documentation](https://docs.bisq.network/payment-methods#account-signing) for further information.
+2. The trade offer value is larger than your current limit. Account signing will reduce these limits.  Please read [Bisq Official Documentation](https://docs.bisq.network/payment-methods#account-signing) for further information.
 
 **Tips**
 
 1. Use Revolut Banking app to take advantage of the arbitrage between BTC/USD and BTC/EUR. Revolut allows up to 1000USD without fee between National currencies
-2. Bisq lacks liquidity compared to most exchanges.  BTC/USD orders are often 5% - 10%.  Put your crypto to work by offering trades for . This is an easy way to generate some extra profit while providing liquiding on the market.
+2. Bisq lacks liquidity compared to most exchanges.  BTC/USD orders are often 5% - 10%.  Put your crypto to work by offering trades for . This is an easy way to generate some extra profit while providing liquidity on the market.
 
