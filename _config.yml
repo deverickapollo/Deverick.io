@@ -26,15 +26,15 @@ github:
   username: hashes4merkle             # change to your github username
 
 twitter:
-  username: hashes4merkle            # change to your twitter username
-  hashtag: '@hashes4merkle'
+  username: deverickapollo            # change to your twitter username
+  hashtag: '@deverickapollo'
 
 social:
   name: Deverick Simpson                  # it will shows as the copyright owner in Footer
   email: deverick@apollolabs.io            # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/hashes4merkle      # change to your twitter homepage
+    - https://twitter.com/deverickapollo      # change to your twitter homepage
     - https://github.com/hashes4merkle       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
