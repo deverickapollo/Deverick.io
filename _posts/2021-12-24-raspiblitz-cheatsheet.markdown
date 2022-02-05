@@ -18,11 +18,18 @@ tag: software
 - ```sudo tail -f /home/admin/raspiblitz.log```
 
 
+
+
+
 **I NEED TO KNOW THE STATUS OF MY SERVICES!**
 
 **List user services currently running:**
 - ```systemctl list-dependencies multi-user.target```
 - ```systemctl list-unit-files --type=service ```
+
+
+
+
 
 **I NEED TO COMPACT MY CHANNEL.DB!**
 1. **Check Channel Size:**
