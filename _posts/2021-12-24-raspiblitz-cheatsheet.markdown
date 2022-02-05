@@ -24,7 +24,6 @@ Output Raspiblitz Logs to Console:
 
 List user services currently running:
 - **```systemctl list-dependencies multi-user.target```**
-**OR**
 - **```systemctl list-unit-files --type=service ```**
 
 **I NEED TO COMPACT MY CHANNEL.DB!!**
