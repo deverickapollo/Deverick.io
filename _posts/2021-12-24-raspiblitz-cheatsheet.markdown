@@ -23,13 +23,14 @@ Output Raspiblitz Logs to Console:
 **I NEED TO KNOW THE STATUS OF MY SERVICES!!**
 
 List user services currently running:
-**```systemctl list-dependencies multi-user.target```**
+- **```systemctl list-dependencies multi-user.target```**
 **OR**
-**```systemctl list-unit-files --type=service ```**
+- **```systemctl list-unit-files --type=service ```**
 
 **I NEED TO COMPACT MY CHANNEL.DB!!**
-1. Check Channel Size: ```sudo  du -h /mnt/hdd/lnd/data/graph/mainnet/channel.db```
-2. Set the auto-compat flag by copying the below:
+1. Check Channel Size: 
+- ```sudo  du -h /mnt/hdd/lnd/data/graph/mainnet/channel.db```
+3. Set the auto-compat flag by copying the below:
 ```
 [bolt]
 # Whether the databases used within lnd should automatically be compacted on
@@ -43,6 +44,9 @@ db.bolt.auto-compact=true
 # startup. (default: 168h)
 # db.bolt.auto-compact-min-age=0
 ```
-3. Restart lnd: ```systemctl restart lnd```
-4. Watch logs until compacting is complete: ```sudo tail -f /mnt/hdd/lnd/logs/bitcoin/mainnet/lnd.log```
-5. Edit lnd.conf file by replacing ```db.bolt.auto-compact=true``` with  ```#db.bolt.auto-compact=true```
+3. Restart lnd: 
+- ```systemctl restart lnd```
+5. Watch logs until compacting is complete: 
+- ```sudo tail -f /mnt/hdd/lnd/logs/bitcoin/mainnet/lnd.log```
+7. Edit lnd.conf file by replacing 
+- ```db.bolt.auto-compact=true``` with  ```#db.bolt.auto-compact=true```
