@@ -6,8 +6,6 @@ categories: ["lightning"]
 tag: software
 ---
 
-Here is a much needed cheatsheet for the raspiblitz:
-
 **I NEED LOGS!!**
 
 Output LND Log to Console:
@@ -29,7 +27,8 @@ List user services currently running:
 **I NEED TO COMPACT MY CHANNEL.DB!!**
 1. Check Channel Size: 
 - ```sudo  du -h /mnt/hdd/lnd/data/graph/mainnet/channel.db```
-3. Set the auto-compat flag by copying the below:
+
+2. Set the auto-compat flag by copying the below:
 ```
 [bolt]
 # Whether the databases used within lnd should automatically be compacted on
