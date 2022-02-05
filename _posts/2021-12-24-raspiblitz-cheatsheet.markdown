@@ -6,7 +6,7 @@ categories: ["lightning"]
 tag: software
 ---
 
-**I NEED LOGS!!**
+**I NEED LOGS!**
 
 **Output LND Log to Console:**
 - ```sudo tail -f /mnt/hdd/lnd/logs/bitcoin/mainnet/lnd.log```
@@ -18,13 +18,13 @@ tag: software
 - ```sudo tail -f /home/admin/raspiblitz.log```
 
 
-**I NEED TO KNOW THE STATUS OF MY SERVICES!!**
+**I NEED TO KNOW THE STATUS OF MY SERVICES!**
 
 **List user services currently running:**
 - ```systemctl list-dependencies multi-user.target```
 - ```systemctl list-unit-files --type=service ```
 
-**I NEED TO COMPACT MY CHANNEL.DB!!**
+**I NEED TO COMPACT MY CHANNEL.DB!**
 1. **Check Channel Size:**
 - ```sudo  du -h /mnt/hdd/lnd/data/graph/mainnet/channel.db```
 
