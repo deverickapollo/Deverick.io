@@ -9,7 +9,7 @@ tag: software
 **I NEED LOGS!!**
 
 Output LND Log to Console:
-- **```sudo tail -f /mnt/hdd/lnd/logs/bitcoin/mainnet/lnd.log```**
+- ```**sudo tail -f /mnt/hdd/lnd/logs/bitcoin/mainnet/lnd.log**```
 	
 Output Bitcoind Logs to Console:
 - **```sudo tail -f /mnt/hdd/bitcoin/debug.log```**
