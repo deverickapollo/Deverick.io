@@ -62,5 +62,7 @@ Documentation focused on install for dev environment with macos. Do not rely on 
 	2. Reboot with `sudo reboot`. When the system boots, you'll have a smaller _filesystem_ living inside a larger _partition_.
 	3. The next magic command is `resize2fs`. Run `sudo resize2fs /dev/sda1` - this form will default to making the filesystem to take all available space on the partition.
 9. Make usb  filesystem  by running command  `mkfs.ext4 /dev/sda1` where `/dev/sda1` is your new disk.
-10. Reboot with `sudo reboot`.
-11. Login with `admin` user.  Default password: `raspiblitz`
+10. [Configure signet](https://github.com/rootzoll/raspiblitz/issues/1500#issuecomment-982779830)
+11. Reboot with `sudo reboot`.
+12. Login with `admin` user.  Default password: `raspiblitz`
+
