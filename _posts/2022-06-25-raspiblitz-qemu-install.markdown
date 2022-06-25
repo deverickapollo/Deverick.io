@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Raspiblitzv Install w UTM/QEMU"
+title:  "Raspiblitz Install w UTM/QEMU"
 date:   2022-06-25 17:00:00 +0000
 categories: ["computer science"]
 tag: software
 ---
+
 Documentation focused on install for dev environment with macos. Do not rely on this setup for nodes on mainnet. 
 
 1. Download [Debian 10.4 Minimal Image](https://mac.getutm.app/gallery/debian-10-4-minimal)
