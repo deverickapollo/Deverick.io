@@ -28,13 +28,15 @@ Documentation focused on install for dev environment with macos. Do not rely on 
 		sudo apt install armbian-config
 		```
 5. Switch to swapfile - [Reference](https://www.linuxuprising.com/2018/08/how-to-use-swap-file-instead-of-swap.html)	
-	1. `sudo swapoff /dev/vda3`
-	2. `sudo vim /etc/fstab `
-	3. `sudo dd if=/dev/zero of=/swapfile bs=1024 count=1048576`
-	4. `sudo chmod 600 /swapfile `
-	5. `sudo mkswap /swapfile`
-	6. `sudo swapon /swapfile`
-	7. `swapon -s`
+	```
+	sudo swapoff /dev/vda3
+	sudo vim /etc/fstab 
+	sudo dd if=/dev/zero of=/swapfile bs=1024 count=1048576`
+	sudo chmod 600 /swapfile 
+	sudo mkswap /swapfile
+	sudo swapon /swapfile
+	swapon -s
+	```
 6. Update `/etc/apt/sources` to `bullseye` and add `raspi.list`
 	- https://ict.gctaa.net/resources/adding_raspbian_repo.html
 	- https://www.linuxquestions.org/questions/blog/craigevil-176422/raspberry-pi-os-debian-11-bullseye-apt-repos-38636/
