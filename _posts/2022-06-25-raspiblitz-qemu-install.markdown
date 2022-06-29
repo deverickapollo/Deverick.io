@@ -25,7 +25,7 @@ Documentation focused on install for dev environment with macos. Do not rely on 
 		sudo apt update
 		sudo apt install armbian-config
 		```
-5. Switch to swapfile - [Reference](https://www.linuxuprising.com/2018/08/how-to-use-swap-file-instead-of-swap.html)	
+5. (Optional) Switch to swapfile - [Reference](https://www.linuxuprising.com/2018/08/how-to-use-swap-file-instead-of-swap.html)	
 	```
 	sudo swapoff /dev/vda3
 	sudo vim /etc/fstab 
