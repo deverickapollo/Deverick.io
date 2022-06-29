@@ -40,10 +40,10 @@ Documentation focused on install for dev environment with macos. Do not rely on 
 	deb https://archive.raspberrypi.org/debian/ bullseye main
 	deb-src https://archive.raspberrypi.org/debian/ bullseye main
 	```
-	- https://ict.gctaa.net/resources/adding_raspbian_repo.html
-	- https://www.linuxquestions.org/questions/blog/craigevil-176422/raspberry-pi-os-debian-11-bullseye-apt-repos-38636/
-	- https://www.cyberciti.biz/faq/update-upgrade-debian-10-to-debian-11-bullseye/
-	- https://www.tomshardware.com/how-to/upgrade-raspberry-pi-os-to-bullseye-from-buster
+	- [https://ict.gctaa.net/resources/adding_raspbian_repo.html](https://ict.gctaa.net/resources/adding_raspbian_repo.html)
+	- [https://www.linuxquestions.org/questions/blog/craigevil-176422/raspberry-pi-os-debian-11-bullseye-apt-repos-38636/](https://www.linuxquestions.org/questions/blog/craigevil-176422/raspberry-pi-os-debian-11-bullseye-apt-repos-38636/)
+	- [https://www.cyberciti.biz/faq/update-upgrade-debian-10-to-debian-11-bullseye/](https://www.cyberciti.biz/faq/update-upgrade-debian-10-to-debian-11-bullseye/)
+	- [https://www.tomshardware.com/how-to/upgrade-raspberry-pi-os-to-bullseye-from-buster](https://www.tomshardware.com/how-to/upgrade-raspberry-pi-os-to-bullseye-from-buster)
 7. Add /usr/sbin to path
    1. `sudo vim ~/.bashrc`
    2. Add `PATH=$PATH:/usr/sbin` to the end of the file
