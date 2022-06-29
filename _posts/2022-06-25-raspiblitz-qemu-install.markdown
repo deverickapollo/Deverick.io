@@ -20,7 +20,6 @@ Documentation focused on install for dev environment with macos. Do not rely on 
 	- `sudo apt install mount`
 	- `sudo apt-get install e2fsprogs`
 	- `sudo apt install gnupg2`
-	- Install scratch
 	- Install [armbian-config](https://github.com/armbian/config#armbian-configuration-utility)
 		```
 		echo "deb [arch=arm64] http://apt.armbian.com $(lsb_release -cs) main" > /etc/apt/sources.list.d/armbian.list
