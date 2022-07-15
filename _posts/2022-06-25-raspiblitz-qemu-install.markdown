@@ -29,7 +29,8 @@ Documentation focused on install for dev environment with macos. Do not rely on 
 	```
 	sudo swapoff /dev/vda3
 	sudo vim /etc/fstab 
-	sudo dd if=/dev/zero of=/swapfile bs=1024 count=1048576`
+	# Remove the previous swap and replace with new
+	sudo dd if=/dev/zero of=/swapfile bs=1024 count=1048576
 	sudo chmod 600 /swapfile 
 	sudo mkswap /swapfile
 	sudo swapon /swapfile
@@ -61,6 +62,7 @@ Documentation focused on install for dev environment with macos. Do not rely on 
 	    - use `d` to **delete** first the swap partition (`2`) and then the `/dev/sda1` partition. This is very scary but is actually harmless as the data is not written to the disk until you write the changes to the disk.
 	    - use `n` to **create** a new primary partition. Make sure its start cylinder is exactly the same as the old `/dev/sda1` used to have. For the end cylinder agree with the default choice, which is to make the partition to span the whole disk.
 	    - review your changes, make a deep breath and use `w` to write the new partition table to disk. 
+	    - `resize2fs /dev/sda1` to resize filesystem
 	2. Reboot with `sudo reboot`.
 10. Make usb  filesystem  by running command  `mkfs.ext4 /dev/sda1` where `/dev/sda1` is your new disk.
 11. [Install raspiblitz via build script](https://github.com/rootzoll/raspiblitz/tree/v1.7/alternative.platforms#building-the-raspiblitz-scripts)
