@@ -9,7 +9,7 @@ title: About
 ---
 
 
-Welcome to my personal space where I share some of my experiences in the digital world.  You can view source code for my tools and projects on [Github.com](https://github.com/hashes4merkle).
+Welcome to my personal space where I share some of my experiences in the digital world.  You can view source code for my tools and projects on [Github.com](https://github.com/deverickapollo).
 
 Find me on [Keybase](https://keybase.io/cheddabiskit).
 
